@@ -5,8 +5,20 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "gradio>=6.9.0",
+    "ipykernel>=7.2.0",
+    "ipywidgets>=8.1.8",
     "matplotlib>=3.10.8",
     "numpy>=2.4.3",
+    "openai>=2.29.0",
     "pandas>=3.0.1",
+    "requests>=2.32.5",
     "seaborn>=0.13.2",
+    "langchain-chroma>=1.1.0",
+    "langchain-community>=0.4.1",
+    "langchain-ollama>=1.0.1",
+    "nbformat>=5.10.4",
+    "pdfminer-six>=20260107",
+    "plotly>=6.6.0",
+    "scikit-learn>=1.8.0",
 ]
